@@ -1,0 +1,15 @@
+#include <stdio.h>
+
+int main() {
+    enum Status { SUCCESS = 100, FAILURE = 200, TIMEOUT }; 
+
+
+    printf("SUCCESS = %d\n", SUCCESS);
+    printf("FAILURE = %d\n", FAILURE);
+    printf("TIMEOUT = %d\n", TIMEOUT);
+
+    int code = SUCCESS;
+    printf("Assigned SUCCESS to int variable: code = %d\n", code);
+
+    return 0;
+}
